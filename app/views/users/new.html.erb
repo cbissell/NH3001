@@ -12,17 +12,17 @@
       <%= f.label :email %>
       <%= f.text_field :email %>
 
-      <%= f.label :startDate %>
-      <%= f.password_field :startDate %>
+      <%= f.label :startDate, "Start Date" %>
+      <%= f.text_field :startDate %>
 
       <%= f.label :officelocation, "Office Location" %>
-      <%= f.password_field :officelocation %>
+      <%= f.text_field :officelocation %>
 
-      <%= f.label :computerType %>
-      <%= f.password_field :computerType %>
+      <%= f.label :computerType, "Retina or Non-Retina Computer?" %>
+      <%= f.text_field :computerType %>
 
       <%= f.label :department %>
-      <%= f.password_field :department %>
+      <%= f.text_field :department %>
 
       <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
     <% end %>
